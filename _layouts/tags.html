@@ -7,5 +7,13 @@ title: Tags
   {% capture tag_name %}{{tag|first|slugize}}{% endcapture %}
   {% capture tag_size %}{{tag|last|size}}{% endcapture %}
   {% capture font_size %}{{tag_size | times: site.tags.size | divided_by:site.tags.size | plus: 14 }}{% endcapture %}
+
+  <li style="font-size:{{font-size}}">
+	 <a href="#{{tag_name}}">
+		  {{tag_name}} ({{tag_size}})
+	  </a>
+
+  </li>
+  
   {% endfor %}
 </div>
