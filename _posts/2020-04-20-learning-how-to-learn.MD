@@ -13,7 +13,7 @@ tags: [coursera]
   - 새로운 것을 학습하려고 할 때는 diffuse-mode thinking이 필요: 편안한 자세로 주제에 대해 막연히 생각하는 것
   - Diffuse mode에서 떠올린 아이디어를 focus mode에서 구체화
   - 뭔가 새로운 것을 배울 때는 **시간이 걸린다.**
----
+
 ### Procrastination, Memory, and Sleep
 
 #### Procrastination (미루기)
