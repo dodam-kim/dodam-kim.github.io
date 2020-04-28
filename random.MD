@@ -1,5 +1,5 @@
 ---
 layout: random
 permalink: /random/
-title: I feel lucky
+title: I'm feeling lucky
 ---
