@@ -1,18 +1,18 @@
 ---
-layout: page
-title: I feel lucky
+layout: default
+title: Flipping a coin...
 ---
 
-	<script>
-		function LinkToRandomPost() {
-			var all_posts = [
-				{% for post in site.posts %}
-				"{{ post.url | prepend: site.baseurl }}"{% unless forloop.last %},{% endunless %}
-				{% endfor %}
+<script>
+  function LinkToRandomPost() {
+    var all_posts = [
+      {% for post in site.posts %}
+  "{{ post.url | prepend: site.baseurl }}"{% unless forloop.last %}, {% endunless %}
+  {% endfor %}
 				];
 
-			return all_posts[Math.floor(Math.random() * all_posts.length)];
+  return all_posts[Math.floor(Math.random() * all_posts.length)];
 		}
 
-		location.replace(LinkToRandomPost())
-	</script>
+  location.replace(LinkToRandomPost())
+</script>
